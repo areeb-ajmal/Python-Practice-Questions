@@ -7,7 +7,7 @@ class Train :
         self.to = to
 
     def getbooked(self):
-        print(f"Train no : {self.train_no} is booked {self.fro} to {self.to}")
+        print(f"Train no : {self.train_no} is booked from {self.fro} to {self.to}")
 
     def getStatus(self):
         print(f"Train no : {self.train_no} is running on time")
@@ -23,4 +23,5 @@ p1.getStatus()
 p1.getfare()
         
         
+
         
